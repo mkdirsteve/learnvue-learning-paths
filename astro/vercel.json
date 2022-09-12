@@ -3,10 +3,6 @@
     {
       "source": "/nuxt/:match*",
       "destination": "https://lv-nuxt.vercel.app/:match*"
-    },
-    {
-      "source": "/_nuxt/:match*",
-      "destination": "https://lv-nuxt.vercel.app/_nuxt/:match*"
     }
   ]
 }
