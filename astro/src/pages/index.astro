@@ -17,7 +17,9 @@ const posts = await Astro.glob('../tutorials/**/index.mdx')
             <p>{post.frontmatter.description}</p>
             <div class="flex flex-wrap gap-2 mt-4">
               <a
-                href={'' + post.url.split('/')[post.url.split('/').length - 2]}
+                href={
+                  '' + post.url.split('/')[post.url.split('/').length - 2] + '/'
+                }
                 class="inline-block px-2 py-1 text-sm text-white rounded bg-green hover:bg-green-300"
               >
                 See Demo
