@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: ['@/assets/main.css'],
   app: {
     baseURL: '/nuxt',
-    cdnURL: '/nuxt'
+    cdnURL: 'https://lv-nuxt.vercel.app/nuxt'
   },
   content: {
     highlight: {
