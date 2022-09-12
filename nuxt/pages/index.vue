@@ -14,7 +14,7 @@
         >Nuxt demo</NuxtLink
       >
       <a
-        href="/"
+        href="/vue"
         class="px-4 py-2 rounded bg-charcoal-600 hover:bg-charcoal-500"
         >Other Vue demos</a
       >
