@@ -5,8 +5,8 @@
       "destination": "https://lv-vue.vercel.app/:match*"
     },
     {
-      "source": "/:match*",
-      "destination": "https://lv-nuxt.vercel.app/:match*"
+      "source": ":match*",
+      "destination": "https://lv-nuxt.vercel.app:match*"
     }
   ]
 }
