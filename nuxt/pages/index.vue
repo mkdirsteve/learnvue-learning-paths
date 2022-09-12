@@ -9,7 +9,7 @@
     </p>
     <div class="flex gap-4 mt-8">
       <NuxtLink
-        to="/nuxt"
+        to="/login"
         class="px-4 py-2 rounded bg-charcoal-600 hover:bg-charcoal-500"
         >Nuxt demo</NuxtLink
       >
