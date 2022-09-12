@@ -4,10 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/supabase'],
   css: ['@/assets/main.css'],
-  app: {
-    baseURL: '/nuxt',
-    cdnURL: 'https://lv-nuxt.vercel.app/nuxt'
-  },
   content: {
     highlight: {
       // Theme used in all color schemes.

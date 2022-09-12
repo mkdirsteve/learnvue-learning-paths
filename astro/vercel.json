@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/nuxt:match*",
-      "destination": "https://lv-nuxt.vercel.app/nuxt:match*"
-    }
-  ]
-}
