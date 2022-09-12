@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/vue",
-      "destination": "https://lv-vue.vercel.app"
+      "destination": "https://lv-vue.vercel.app/vue"
     },
     {
       "source": "/vue/:match*",
