@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/:match*",
-      "destination": "https://lv-nuxt.vercel.com/:match*"
+      "destination": "https://lv-nuxt.vercel.app/:match*"
     },
     {
       "source": "/vue/:match*",
-      "destination": "https://lv-vue.vercel.com/:match*"
+      "destination": "https://lv-vue.vercel.app/:match*"
     }
   ]
 }
