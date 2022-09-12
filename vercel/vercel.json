@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/:match*",
+      "destination": "https://lv-nuxt.vercel.com/:match*"
+    },
+    {
+      "source": "/vue/:match*",
+      "destination": "https://lv-vue.vercel.com/:match*"
+    }
+  ]
+}
