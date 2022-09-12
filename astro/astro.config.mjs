@@ -9,5 +9,7 @@ export default defineConfig({
   integrations: [tailwind(), mdx(), vue()],
   server: {
     port: 8080
-  }
+  },
+  site: 'https://demo.learnvue.co',
+  base: 'vue'
 })
