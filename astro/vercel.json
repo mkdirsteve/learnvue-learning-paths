@@ -1,3 +1,4 @@
 {
-  "basePath": "/vue"
+  "basePath": "/vue",
+  "cleanUrls": true
 }
