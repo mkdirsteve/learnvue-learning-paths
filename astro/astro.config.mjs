@@ -12,9 +12,5 @@ export default defineConfig({
   },
   site: 'https://demos.learnvue.co/vue',
   trailingSlash: 'ignore',
-  outDir: './dist/vue',
-  build: {
-    format: 'file'
-  },
   base: '/vue'
 })
