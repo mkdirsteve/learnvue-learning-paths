@@ -1,0 +1,14 @@
+{
+  "name": "learnvue-demo",
+  "version": "1.0.0",
+  "description": "A spot for hosting demos for LearnVue content",
+  "main": "index.js",
+  "author": "Matt Maribojoc <matt@learnvue.co>",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/LearnVueCo/tutorial-code",
+  "workspaces": [
+    "astro",
+    "nuxt"
+  ]
+}
