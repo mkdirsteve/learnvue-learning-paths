@@ -26,7 +26,7 @@ const rotation = computed(() => {
 </script>
 <template>
   <div class="w-full p-8 bg-gray-800 rounded shadow-2xl card" ref="target">
-    <h1 class="mb-2 text-2xl font-bold">Hover this card</h1>
+    <h1 class="mb-2 text-2xl font-bold">Buzzwords 🥴</h1>
     <section class="flex items-center">
       <img
         src="https://learnvue.co/img/matt-maribojoc.png"

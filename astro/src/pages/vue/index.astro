@@ -18,7 +18,7 @@ const posts = await Astro.glob('../../tutorials/**/index.mdx')
             <div class="flex flex-wrap gap-2 mt-4">
               <a
                 href={
-                  'demo/' + post.url.split('/')[post.url.split('/').length - 2]
+                  'vue/' + post.url.split('/')[post.url.split('/').length - 2]
                 }
                 class="inline-block px-2 py-1 text-sm text-white rounded bg-green hover:bg-green-300"
               >
