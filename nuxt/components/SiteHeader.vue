@@ -12,7 +12,7 @@ const client = useSupabaseClient()
     </a>
     <nav class="ml-4 text-sm font-medium">
       <NuxtLink
-        to="/nuxt/blog"
+        to="/blog"
         class="px-2 py-1 ml-auto mr-1 text-sm font-medium rounded hover:bg-charcoal-600 hover:text-white"
         >Demo Blog</NuxtLink
       >
