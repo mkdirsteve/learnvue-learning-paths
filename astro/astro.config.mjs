@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     port: 8080
   },
-  site: 'https://demos.learnvue.co/vue',
+  site: 'https://demos.learnvue.co',
   trailingSlash: 'ignore',
   outDir: './dist/vue',
   base: '/vue'
