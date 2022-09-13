@@ -6,7 +6,7 @@ const target = ref(null)
 const { elementX, elementY, isOutside, elementHeight, elementWidth } =
   useMouseInElement(target)
 
-const rotation = computed(() => {
+const cardTransform = computed(() => {
   const MAX_ROTATION = 6
 
   const rX = (
@@ -25,7 +25,14 @@ const rotation = computed(() => {
 })
 </script>
 <template>
-  <div class="w-full p-8 rounded shadow-2xl bg-charcoal-600 card" ref="target">
+  <div
+    class="w-full p-8 rounded shadow-2xl bg-charcoal-600 card"
+    ref="target"
+    :style="{
+      transform: cardTransform,
+      transition: 'transform 0.25s ease-out'
+    }"
+  >
     <h1 class="mb-2 text-2xl font-bold">B.S. Meeting Notes 🥴</h1>
     <section class="flex items-center">
       <img
@@ -43,8 +50,8 @@ const rotation = computed(() => {
 </template>
 
 <style scoped>
-.card {
-  transform: v-bind(rotation);
+/* .card {
+  transform: v-bind(cardTransform);
   transition: transform 0.25s ease-out;
-}
+} */
 </style>
