@@ -25,8 +25,8 @@ const rotation = computed(() => {
 })
 </script>
 <template>
-  <div class="w-full p-8 bg-gray-800 rounded shadow-2xl card" ref="target">
-    <h1 class="mb-2 text-2xl font-bold">Buzzwords 🥴</h1>
+  <div class="w-full p-8 rounded shadow-2xl bg-charcoal-600 card" ref="target">
+    <h1 class="mb-2 text-2xl font-bold">B.S. Meeting Notes 🥴</h1>
     <section class="flex items-center">
       <img
         src="https://learnvue.co/img/matt-maribojoc.png"
@@ -35,9 +35,9 @@ const rotation = computed(() => {
       <h2 class="font-2xl">@mattmaribojoc</h2>
     </section>
     <p class="mt-4">
-      Disrupt inspire and think tank, social entrepreneur but preliminary
-      thinking think tank compelling. Inspiring, invest synergy capacity
-      building, white paper;
+      Organic growth beef up, and shotgun approach note for the previous submit:
+      Can you ballpark the cost per unit for me. Conversational content reach
+      out, what's the status on the deliverables for eow?
     </p>
   </div>
 </template>
