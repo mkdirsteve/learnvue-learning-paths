@@ -463,6 +463,11 @@
   resolved "https://registrynpm.storefrontcloud.io/@esbuild%2flinux-loong64/-/linux-loong64-0.15.7.tgz#1ec4af4a16c554cbd402cc557ccdd874e3f7be53"
   integrity sha512-IKznSJOsVUuyt7cDzzSZyqBEcZe+7WlBqTVXiF1OXP/4Nm387ToaXZ0fyLwI1iBlI/bzpxVq411QE2/Bt2XWWw==
 
+"@formkit/auto-animate@^1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://registrynpm.storefrontcloud.io/@formkit%2fauto-animate/-/auto-animate-1.0.0-beta.3.tgz#d5eb724ccb44afba9348df32ce0b8bb10037a7ee"
+  integrity sha512-glsi+ytwQpxT/Ctr9GtcIfVr4dO6mJ04mQbNU8MFSdCdqMopHtyfU5Fib0+9lNFIeR0luY4/0NW95/2R5pKsag==
+
 "@ioredis/commands@^1.1.1":
   version "1.2.0"
   resolved "https://registrynpm.storefrontcloud.io/@ioredis%2fcommands/-/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
