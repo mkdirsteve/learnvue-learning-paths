@@ -9,14 +9,16 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        title: ['Rubik', 'sans-serif'],
+        mono: ['DM Mono', 'monospace'],
         handwritten: ['Virgil', 'sans-serif']
       },
       boxShadow: {
         sm: '0.25rem 0.25rem 0px 0px rgba(0, 0, 0, 0.1)',
-        smHeavy: '0.25rem 0.25rem 0px 0px rgba(0, 0, 0, 0.3)',
+        smDark: '0.25rem 0.25rem 0px 0px rgba(0, 0, 0, 0.75)',
         lg: '0.5rem 0.5rem 0px 0px rgba(0, 0, 0, 0.1)',
-        lgHeavy: '0.5rem 0.5rem 0px 0px rgba(0, 0, 0, 0.3)'
+        lgDark: '0.5rem 0.5rem 0px 0px rgba(0, 0, 0, 0.75)',
+        xl: '0.75rem 0.75rem 0px 0px rgba(0, 0, 0, 0.1)',
+        xlDark: '0.75rem 0.75rem 0px 0px rgba(0, 0, 0, 0.75)'
       },
       colors: {
         green: {
@@ -66,7 +68,7 @@ module.exports = {
       backgroundSize: ['hover', 'group-hover']
     }
   },
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,css}'],
   plugins: [
     function ({ addComponents }) {
       addComponents({

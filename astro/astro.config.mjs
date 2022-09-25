@@ -6,7 +6,11 @@ import vue from '@astrojs/vue'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), vue()],
+  integrations: [
+    tailwind({ config: { applyBaseStyles: false } }),
+    mdx(),
+    vue()
+  ],
   server: {
     port: 8080
   },
