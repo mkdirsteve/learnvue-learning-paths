@@ -9,6 +9,7 @@
   "repository": "https://github.com/LearnVueCo/tutorial-code",
   "workspaces": [
     "astro",
-    "nuxt"
+    "nuxt",
+    "vue-vite"
   ]
 }

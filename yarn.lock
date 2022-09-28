@@ -1170,10 +1170,53 @@
     "@babel/plugin-transform-typescript" "^7.18.12"
     "@vue/babel-plugin-jsx" "^1.1.1"
 
-"@vitejs/plugin-vue@^3.0.0", "@vitejs/plugin-vue@^3.0.3":
+"@vitejs/plugin-vue@^3.0.0", "@vitejs/plugin-vue@^3.0.3", "@vitejs/plugin-vue@^3.1.0":
   version "3.1.0"
   resolved "https://registrynpm.storefrontcloud.io/@vitejs%2fplugin-vue/-/plugin-vue-3.1.0.tgz#3a423ea6943a450e806da412a911150e928598ed"
   integrity sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==
+
+"@volar/code-gen@0.40.13":
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/@volar%2fcode-gen/-/code-gen-0.40.13.tgz#cd69a67b11462b93d79ea2139f9f1e0a76e15111"
+  integrity sha512-4gShBWuMce868OVvgyA1cU5WxHbjfEme18Tw6uVMfweZCF5fB2KECG0iPrA9D54vHk3FeHarODNwgIaaFfUBlA==
+  dependencies:
+    "@volar/source-map" "0.40.13"
+
+"@volar/source-map@0.40.13":
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/@volar%2fsource-map/-/source-map-0.40.13.tgz#9acbc47614bbd8fa710d233d10fff1b18cb78a80"
+  integrity sha512-dbdkAB2Nxb0wLjAY5O64o3ywVWlAGONnBIoKAkXSf6qkGZM+nJxcizsoiI66K+RHQG0XqlyvjDizfnTxr+6PWg==
+  dependencies:
+    "@vue/reactivity" "3.2.38"
+
+"@volar/typescript-faster@0.40.13":
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/@volar%2ftypescript-faster/-/typescript-faster-0.40.13.tgz#5d9600333cc250ad53e8604ff6a2a32e4acfbc86"
+  integrity sha512-uy+TlcFkKoNlKEnxA4x5acxdxLyVDIXGSc8cYDNXpPKjBKXrQaetzCzlO3kVBqu1VLMxKNGJMTKn35mo+ILQmw==
+  dependencies:
+    semver "^7.3.7"
+
+"@volar/vue-language-core@0.40.13":
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/@volar%2fvue-language-core/-/vue-language-core-0.40.13.tgz#13a79c29ef63d66a40afd1b29166404703b240c4"
+  integrity sha512-QkCb8msi2KUitTdM6Y4kAb7/ZlEvuLcbBFOC2PLBlFuoZwyxvSP7c/dBGmKGtJlEvMX0LdCyrg5V2aBYxD38/Q==
+  dependencies:
+    "@volar/code-gen" "0.40.13"
+    "@volar/source-map" "0.40.13"
+    "@vue/compiler-core" "^3.2.38"
+    "@vue/compiler-dom" "^3.2.38"
+    "@vue/compiler-sfc" "^3.2.38"
+    "@vue/reactivity" "^3.2.38"
+    "@vue/shared" "^3.2.38"
+
+"@volar/vue-typescript@0.40.13":
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/@volar%2fvue-typescript/-/vue-typescript-0.40.13.tgz#50fe8e0965f4e14596eca57550b5ca13388c244c"
+  integrity sha512-o7bNztwjs8JmbQjVkrnbZUOfm7q4B8ZYssETISN1tRaBdun6cfNqgpkvDYd+VUBh1O4CdksvN+5BUNnwAz4oCQ==
+  dependencies:
+    "@volar/code-gen" "0.40.13"
+    "@volar/typescript-faster" "0.40.13"
+    "@volar/vue-language-core" "0.40.13"
 
 "@vscode/emmet-helper@^2.8.4":
   version "2.8.4"
@@ -1207,7 +1250,7 @@
     html-tags "^3.1.0"
     svg-tags "^1.0.0"
 
-"@vue/compiler-core@3.2.39":
+"@vue/compiler-core@3.2.39", "@vue/compiler-core@^3.2.38":
   version "3.2.39"
   resolved "https://registrynpm.storefrontcloud.io/@vue%2fcompiler-core/-/compiler-core-3.2.39.tgz#0d77e635f4bdb918326669155a2dc977c053943e"
   integrity sha512-mf/36OWXqWn0wsC40nwRRGheR/qoID+lZXbIuLnr4/AngM0ov8Xvv8GHunC0rKRIkh60bTqydlqTeBo49rlbqw==
@@ -1217,7 +1260,7 @@
     estree-walker "^2.0.2"
     source-map "^0.6.1"
 
-"@vue/compiler-dom@3.2.39":
+"@vue/compiler-dom@3.2.39", "@vue/compiler-dom@^3.2.38":
   version "3.2.39"
   resolved "https://registrynpm.storefrontcloud.io/@vue%2fcompiler-dom/-/compiler-dom-3.2.39.tgz#bd69d35c1a48fe2cea4ab9e96d2a3a735d146fdf"
   integrity sha512-HMFI25Be1C8vLEEv1hgEO1dWwG9QQ8LTTPmCkblVJY/O3OvWx6r1+zsox5mKPMGvqYEZa6l8j+xgOfUspgo7hw==
@@ -1225,7 +1268,7 @@
     "@vue/compiler-core" "3.2.39"
     "@vue/shared" "3.2.39"
 
-"@vue/compiler-sfc@3.2.39":
+"@vue/compiler-sfc@3.2.39", "@vue/compiler-sfc@^3.2.38":
   version "3.2.39"
   resolved "https://registrynpm.storefrontcloud.io/@vue%2fcompiler-sfc/-/compiler-sfc-3.2.39.tgz#8fe29990f672805b7c5a2ecfa5b05e681c862ea2"
   integrity sha512-fqAQgFs1/BxTUZkd0Vakn3teKUt//J3c420BgnYgEOoVdTwYpBTSXCMJ88GOBCylmUBbtquGPli9tVs7LzsWIA==
@@ -1265,6 +1308,13 @@
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
 
+"@vue/reactivity@3.2.38":
+  version "3.2.38"
+  resolved "https://registrynpm.storefrontcloud.io/@vue%2freactivity/-/reactivity-3.2.38.tgz#d576fdcea98eefb96a1f1ad456e289263e87292e"
+  integrity sha512-6L4myYcH9HG2M25co7/BSo0skKFHpAN8PhkNPM4xRVkyGl1K5M3Jx4rp5bsYhvYze2K4+l+pioN4e6ZwFLUVtw==
+  dependencies:
+    "@vue/shared" "3.2.38"
+
 "@vue/reactivity@3.2.39", "@vue/reactivity@^3.2.38":
   version "3.2.39"
   resolved "https://registrynpm.storefrontcloud.io/@vue%2freactivity/-/reactivity-3.2.39.tgz#e6e3615fe2288d4232b104640ddabd0729a78c80"
@@ -1296,6 +1346,11 @@
   dependencies:
     "@vue/compiler-ssr" "3.2.39"
     "@vue/shared" "3.2.39"
+
+"@vue/shared@3.2.38":
+  version "3.2.38"
+  resolved "https://registrynpm.storefrontcloud.io/@vue%2fshared/-/shared-3.2.38.tgz#e823f0cb2e85b6bf43430c0d6811b1441c300f3c"
+  integrity sha512-dTyhTIRmGXBjxJE+skC8tTWCGLCVc4wQgRRLt8+O9p5ewBAjoBwtCAkLPrtToSr1xltoe3st21Pv953aOZ7alg==
 
 "@vue/shared@3.2.39", "@vue/shared@^3.2.38":
   version "3.2.39"
@@ -7116,6 +7171,11 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
+typescript@^4.6.4:
+  version "4.8.4"
+  resolved "https://registrynpm.storefrontcloud.io/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
+  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
+
 typescript@~4.6.4:
   version "4.6.4"
   resolved "https://registrynpm.storefrontcloud.io/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
@@ -7440,6 +7500,18 @@ vite@3.0.9, vite@~3.0.9:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vite@^3.1.0:
+  version "3.1.3"
+  resolved "https://registrynpm.storefrontcloud.io/vite/-/vite-3.1.3.tgz#b2a0821c11aae124bb7618f8036913c689afcc59"
+  integrity sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==
+  dependencies:
+    esbuild "^0.15.6"
+    postcss "^8.4.16"
+    resolve "^1.22.1"
+    rollup "~2.78.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
 vscode-css-languageservice@^6.0.1:
   version "6.1.0"
   resolved "https://registrynpm.storefrontcloud.io/vscode-css-languageservice/-/vscode-css-languageservice-6.1.0.tgz#fa5408307de1bee817b65efaff284da8a2eca987"
@@ -7573,7 +7645,15 @@ vue-router@^4.1.5:
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
-vue@^3.2.30, vue@^3.2.38:
+vue-tsc@^0.40.4:
+  version "0.40.13"
+  resolved "https://registrynpm.storefrontcloud.io/vue-tsc/-/vue-tsc-0.40.13.tgz#0a193014f7cadb47459cf0809ce3953b74a1348c"
+  integrity sha512-xzuN3g5PnKfJcNrLv4+mAjteMd5wLm5fRhW0034OfNJZY4WhB07vhngea/XeGn7wNYt16r7syonzvW/54dcNiA==
+  dependencies:
+    "@volar/vue-language-core" "0.40.13"
+    "@volar/vue-typescript" "0.40.13"
+
+vue@^3.2.30, vue@^3.2.37, vue@^3.2.38:
   version "3.2.39"
   resolved "https://registrynpm.storefrontcloud.io/vue/-/vue-3.2.39.tgz#de071c56c4c32c41cbd54e55f11404295c0dd62d"
   integrity sha512-tRkguhRTw9NmIPXhzk21YFBqXHT2t+6C6wPOgQ50fcFVWnPdetmRqbmySRHznrYjX2E47u0cGlKGcxKZJ38R/g==
