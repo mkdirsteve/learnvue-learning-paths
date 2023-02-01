@@ -8,8 +8,12 @@
   "private": true,
   "repository": "https://github.com/LearnVueCo/tutorial-code",
   "workspaces": [
-    "astro",
-    "nuxt",
-    "vue-vite"
-  ]
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.0.0"
+  }
 }

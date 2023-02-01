@@ -1,0 +1,13 @@
+<script setup lang="ts">
+const { locale } = useI18n()
+// pull page from storyblok
+const story = await useAsyncStoryblok('landing/concerts', {
+  version: 'draft',
+  language: locale.value
+})
+</script>
+
+<template>
+  <!-- render out our page using the built-in StoryblokComponent resolver -->
+  <StoryblokComponent :blok="story.content" />
+</template>
