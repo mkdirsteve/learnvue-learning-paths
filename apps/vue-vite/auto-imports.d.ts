@@ -54,7 +54,7 @@ declare global {
   const useLogin: typeof import('./src/composables/useLogin')['useLogin']
   const useSlots: typeof import('vue')['useSlots']
   const useTimeAgo: typeof import('vueUse')['useTimeAgo']
-  const useVModel: typeof import('vueUse')['useVModel']
+  const useVModel: typeof import('./src/composables/useVModel')['useVModel']
   const watch: typeof import('vue')['watch']
   const watchEffect: typeof import('vue')['watchEffect']
   const watchPostEffect: typeof import('vue')['watchPostEffect']
