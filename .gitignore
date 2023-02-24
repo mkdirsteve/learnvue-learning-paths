@@ -15,3 +15,4 @@ dist
 .unlighthouse
 .vscode
 .turbo
+*.retypewriter

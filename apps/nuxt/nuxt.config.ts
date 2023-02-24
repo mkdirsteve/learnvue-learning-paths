@@ -1,5 +1,14 @@
+import { defineNuxtConfig } from 'nuxt/config'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  extends: ['nuxt-seo-kit'],
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.PUBLIC_URL
+    }
+  },
+
+  // })
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/image-edge',
@@ -31,6 +40,7 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix_except_default'
   },
+
   image: {
     provider: 'storyblok',
     storyblok: {
@@ -44,5 +54,8 @@ export default defineNuxtConfig({
       theme: 'github-dark',
       preload: ['vue']
     }
+  },
+  experimental: {
+    componentIslands: true
   }
 })
